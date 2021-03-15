@@ -17,8 +17,12 @@ from PyQt5.QtWidgets import QPushButton
 from PyQt5.QtWidgets import QVBoxLayout
 from PyQt5.QtWidgets import QWidget
 
-__version__ = "0.1"
-__author__ = "Leodanis Pozo Ramos"
+# __version__ = "0.1"
+# __author__ = "Leodanis Pozo Ramos"
+
+__version__ = "0.1.1"
+__author__ = "Cyrus Gichuki Ndirangu"
+
 
 ERROR_MSG = "ERROR"
 

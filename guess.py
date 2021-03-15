@@ -62,7 +62,7 @@ secretNumber = randrange(10)
 print(secretNumber)
 lblLogs = [] # Here we want to be able to clear game stats on the game.
 guess_row = 4
-
+window.mainloop()
 # reset all variables
 def init():
     global buttons, guess, totalNumberOfGuesses, secretNumber, lblNoGuess, lblLogs, guess_row
@@ -150,4 +150,8 @@ def startgame(i):
     print("Game started")
 
 
-window.mainloop()
+def main():
+    window.mainloop()
+
+if __name__ == "__main__":
+    main()
