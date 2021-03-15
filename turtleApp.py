@@ -137,7 +137,7 @@ class DrawingApplication(tkinter.Frame):
 
     def buildWindow(self):
         # The master is the root window. The title is set as below:
-        self.master.title('Draw')
+        self.master.title('Kukachora')
 
         # Here's how to create a menu bar. The tearoff=0 means that 
         # can;t be separated from the windowwhich is a feature of tkinter.
